@@ -5,7 +5,7 @@ import App from "./components/App";
 import "bootstrap"; // import js file in bootstrap
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.scss";
+import "./styles/index.scss";
 
 render(
   <Router>

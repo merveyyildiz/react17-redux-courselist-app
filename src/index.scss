@@ -1,7 +1,19 @@
 #app {
-    max-width: 850px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 nav {
- padding: 20px 0;
+  &.navbar-light {
+    .navbar-brand {
+      color: #ed7800;
+    }
+
+    .navbar-nav .nav-link {
+      color: #000;
+      font-weight: 500;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
